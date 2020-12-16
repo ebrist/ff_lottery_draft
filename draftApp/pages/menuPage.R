@@ -9,56 +9,56 @@ fluidPage(
   br(),
   fluidRow(
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 1, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam1')
+      fluidRow(uiOutput('team_title1')),
+      fluidRow(uiOutput('menuButtonTeam1'))
     ),
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 2, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam2')
+      fluidRow(uiOutput('team_title2')),
+      fluidRow(uiOutput('menuButtonTeam2'))
     ),
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 3, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam3')
+      fluidRow(uiOutput('team_title3')),
+      fluidRow(uiOutput('menuButtonTeam3'))
     ),
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 4, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam4')
+      fluidRow(uiOutput('team_title4')),
+      fluidRow(uiOutput('menuButtonTeam4'))
+    )
+  ), 
+  fluidRow(
+    column(3, align = 'center',
+      fluidRow(uiOutput('team_title5')),
+      fluidRow(uiOutput('menuButtonTeam5'))
+    ),
+    column(3, align = 'center',
+      fluidRow(uiOutput('team_title6')),
+      fluidRow(uiOutput('menuButtonTeam6'))
+    ),
+    column(3, align = 'center',
+      fluidRow(uiOutput('team_title7')),
+      fluidRow(uiOutput('menuButtonTeam7'))
+    ),
+    column(3, align = 'center',
+      fluidRow(uiOutput('team_title8')),
+      fluidRow(uiOutput('menuButtonTeam8'))
     )
   ),
   fluidRow(
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 5, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam5')
+      fluidRow(uiOutput('team_title9')),
+      fluidRow(uiOutput('menuButtonTeam9'))
     ),
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 6, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam6')
+      fluidRow(uiOutput('team_title10')),
+      fluidRow(uiOutput('menuButtonTeam10'))
     ),
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 7, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam7')
+      fluidRow(uiOutput('team_title11')),
+      fluidRow(uiOutput('menuButtonTeam11'))
     ),
     column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 8, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam8')
-    )
-  ),
-  fluidRow(
-    column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 9, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam9')
-    ),
-    column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 10, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam10')
-    ),
-    column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 11, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam11')
-    ),
-    column(3, align = 'center',
-      fluidRow(HTML(paste0("<h3>", app_data[app_data$id == 12, ]$team, "</h3>"))),
-      uiOutput('menuButtonTeam12')
+      fluidRow(uiOutput('team_title12')),
+      fluidRow(uiOutput('menuButtonTeam12'))
     ) 
   ),
   br(),
