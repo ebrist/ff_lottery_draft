@@ -1,3 +1,11 @@
+library(shiny)
+library(shinyjs)
+library(shinyWidgets)
+library(data.table)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
 # define server logic
 shinyServer(function(input, output, session) {
   # read in the app data 

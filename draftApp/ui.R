@@ -1,11 +1,3 @@
-library(shiny)
-library(shinyjs)
-library(shinyWidgets)
-library(data.table)
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-
 # primary ui
 shinyUI(
   fluidPage(
